@@ -1,0 +1,26 @@
+.game-root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #181b20;
+  overflow: hidden;
+}
+
+.game-3d-map {
+  flex: 2 1 0;
+  min-width: 0;
+  height: 100vh;
+  background: #11151c;
+}
+
+@media (max-width: 900px) {
+  .game-root {
+    flex-direction: column;
+  }
+  .game-3d-map {
+    height: 55vh;
+    min-height: 320px;
+    flex: unset;
+    width: 100vw;
+  }
+}

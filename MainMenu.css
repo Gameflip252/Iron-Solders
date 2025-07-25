@@ -1,0 +1,58 @@
+.mainmenu-bg {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #2a2d34 60%, #6b7a8f 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainmenu-panel {
+  background: rgba(24, 27, 32, 0.97);
+  padding: 2.5em 2em;
+  border-radius: 15px;
+  box-shadow: 0 4px 32px #1118;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 280px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.mainmenu-panel h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1em;
+  color: #7ec3d3;
+  margin-bottom: 2em;
+}
+
+.mainmenu-panel button {
+  margin: 0.3em 0;
+  padding: 0.8em 2em;
+  font-size: 1.1em;
+  border-radius: 8px;
+  border: none;
+  background: #294865;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  transition: background 0.2s;
+}
+.mainmenu-panel button:hover {
+  background: #3978b4;
+}
+
+.footer {
+  margin-top: 2em;
+  font-size: 0.9em;
+  color: #aaa;
+}
